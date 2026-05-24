@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harish P | Portfolio</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(to right,#0f172a,#1e293b);
+      padding:20px;
+    }
+
+    .hero h1{
+      font-size:55px;
+      color:#38bdf8;
+    }
+
+    .hero h2{
+      font-size:28px;
+      margin-top:10px;
+      color:#cbd5e1;
+    }
+
+    .hero p{
+      margin-top:15px;
+      max-width:700px;
+      color:#94a3b8;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:25px;
+      padding:12px 28px;
+      background:#38bdf8;
+      color:#000;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:white;
+    }
+
+    section{
+      padding:70px 10%;
+    }
+
+    .title{
+      font-size:35px;
+      margin-bottom:30px;
+      color:#38bdf8;
+      text-align:center;
+    }
+
+    .about p{
+      text-align:center;
+      max-width:800px;
+      margin:auto;
+      color:#cbd5e1;
+    }
+
+    .skills-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+      gap:20px;
+      margin-top:40px;
+    }
+
+    .skill{
+      background:#1e293b;
+      padding:25px;
+      border-radius:12px;
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .skill:hover{
+      transform:translateY(-5px);
+      background:#334155;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:25px;
+      margin-top:40px;
+    }
+
+    .project-card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:15px;
+      transition:0.3s;
+    }
+
+    .project-card:hover{
+      transform:scale(1.03);
+    }
+
+    .project-card h3{
+      color:#38bdf8;
+      margin-bottom:10px;
+    }
+
+    .project-card p{
+      color:#cbd5e1;
+    }
+
+    .contact{
+      text-align:center;
+    }
+
+    .contact a{
+      color:#38bdf8;
+      text-decoration:none;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#020617;
+      color:#94a3b8;
+    }
+
+    @media(max-width:768px){
+      .hero h1{
+        font-size:40px;
+      }
+
+      .hero h2{
+        font-size:22px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+
+  <header>
+    <div class="hero">
+      <h1>Harish P</h1>
+      <h2>IT Student | Web Developer | UI Designer</h2>
+
+      <p>
+        Motivated Information Technology undergraduate passionate about
+        web development, artificial intelligence, and software engineering.
+      </p>
+
+      <a href="#contact" class="btn">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+
+  <section class="about">
+    <h2 class="title">About Me</h2>
+
+    <p>
+      I am currently pursuing B.Tech Information Technology at
+      K.S.R Institute for Engineering and Technology.
+      I enjoy building responsive websites and modern web applications.
+      I am passionate about creating clean UI designs and learning new technologies.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+
+  <section>
+    <h2 class="title">Technical Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill">
+        <h3>Java</h3>
+      </div>
+
+      <div class="skill">
+        <h3>Python</h3>
+      </div>
+
+      <div class="skill">
+        <h3>HTML</h3>
+      </div>
+
+      <div class="skill">
+        <h3>CSS</h3>
+      </div>
+
+      <div class="skill">
+        <h3>Figma</h3>
+      </div>
+
+      <div class="skill">
+        <h3>Canva</h3>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section>
+    <h2 class="title">Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <h3>Road Way Logistics</h3>
+
+        <p>
+          Developed a responsive truck booking website using
+          HTML, CSS, and JavaScript with mobile-friendly UI
+          and interactive features.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>SplitMate Expense Splitter</h3>
+
+        <p>
+          Built a responsive expense management web application
+          using React and Tailwind CSS with animated UI components.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INTERNSHIP -->
+
+  <section>
+    <h2 class="title">Internship</h2>
+
+    <div class="project-card">
+      <h3>Azhizen Solutions</h3>
+
+      <p>
+        Worked on AI-integrated web applications and gained
+        practical experience in modern web development workflows.
+      </p>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+
+  <section>
+    <h2 class="title">Certifications</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <p>MATLAB - Handle Inconsistent and Unstructured Data Files</p>
+      </div>
+
+      <div class="project-card">
+        <p>Workshop on Innovative Web Dynamics</p>
+      </div>
+
+      <div class="project-card">
+        <p>Workshop on Artificial Intelligence (Robotics)</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="contact">
+    <h2 class="title">Contact</h2>
+
+    <p>Email: harishpsk2006@gmail.com</p>
+
+    <p>Phone: +91 9345755362</p>
+
+    <p>
+      LinkedIn:
+      <a href="#">Your LinkedIn Link</a>
+    </p>
+
+    <p>
+      GitHub:
+      <a href="#">Your GitHub Link</a>
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    <p>© 2026 Harish P | Portfolio</p>
+  </footer>
+
+</body>
+</html>
